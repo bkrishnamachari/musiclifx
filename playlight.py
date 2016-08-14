@@ -3,6 +3,7 @@
          data file, in real time. 
       Bhaskar Krishnamachari, 8/14/16
       see License file for license details
+      Tested on Python version 2.7.12, Ubuntu 16.04.1 LTS
 """
 import sys
 from time import sleep
