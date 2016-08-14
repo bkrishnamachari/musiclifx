@@ -14,6 +14,8 @@ There are two main python files included here:
 
 2. playlight.py: Sets lifx light bulb brightness according to amplitude in data file, in real time. uses lifxlan, from https://github.com/mclarkk/lifxlan
 
+There is one additional python file included called mute_alsa.py, this is optional, and could help suppress some alsa/pyaudio error messages that pop up when running playmusic.py
+
 There is one shell script included as well: 
 
 play.sh: a bash script file that runs both of the above programs as background process. Provided just for convenience. May be best to run the two programs separately.
