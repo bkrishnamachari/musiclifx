@@ -100,4 +100,5 @@ p.terminate()
 #* http://stackoverflow.com/questions/24974032/reading-realtime-audio-data-into-numpy-array
 #* http://stackoverflow.com/questions/7088672/pyaudio-working-but-spits-out-error-messages-each-time
 #* http://stackoverflow.com/questions/36956083/how-can-the-terminal-output-of-executables-run-by-python-functions-be-silenced-i/36966379#36966379
+# http://stackoverflow.com/questions/5980042/how-to-implement-the-verbose-or-v-option-into-a-script
 """
