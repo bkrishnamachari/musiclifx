@@ -57,7 +57,7 @@ except:
     log.error("Unable to get color. Quitting!")
     sys.exit(3)
 
-amp_old = INIT_AMP 
+brightness_default = INIT_AMP 
 
 while (True):
     sleep(SAMPLE_TIME)
@@ -69,21 +69,21 @@ while (True):
         sys.exit(4)
 
     try: 
-        amp  = int(f.readline())
+        brightness = int(f.readline())
     except:      
         log.warning("Unable to read line in data file.")
-        amp  = amp_old    	#fill in with prev value 
+        brightness = brightness_default #fill in with prev value 
 
-    log.info("Setting brightness to "+str(amp)) 
+    log.info("Setting brightness to "+str(brightness)) 
     try:
-        bulb.set_color((h, s, amp, k))
+        bulb.set_color((h, s, brightness, k))
     except:    
         log.warning("Unable to set color.")
         pass			#in case of any comm failure
 
-    amp_old = amp
-    f.close()
+    brightness_default = brightness
 
+    f.close()
 
 """
 # ACKNOWLEDGEMENTS: this program uses code from:
