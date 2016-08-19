@@ -28,3 +28,5 @@ Notes:
 * To stop printing all information, set VERBOSE=False in both files; to turn on printing of all information, set VERBOSE = True
 
 * Tested on Python version 2.7.12, Ubuntu 16.04.1 LTS
+
+tags: lifx music 
