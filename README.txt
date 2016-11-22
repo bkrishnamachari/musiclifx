@@ -5,8 +5,9 @@ Bhaskar Krishnamachari, August 14, 2016
 This software allows the user to play a wave file
 and synchronize the brightness of a lifx lamp to it in real time. 
 
-The sample wav file provided chopin.wav is taken from: 
+The code needs a file named chopin.wav to be placed in the directory. This file can be taken from: 
 https://archive.org/details/Chopin-NocturneOp.9No.2
+(The file name could of course be changed).
 
 There are two main python files included here; they must both be run simultaneously (say in different terminals):
 
