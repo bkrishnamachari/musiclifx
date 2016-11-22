@@ -8,9 +8,9 @@ and synchronize the brightness of a lifx lamp to it in real time.
 The sample wav file provided chopin.wav is taken from: 
 https://archive.org/details/Chopin-NocturneOp.9No.2
 
-There are two main python files included here:
+There are two main python files included here; they must both be run simultaneously (say in different terminals):
 
-1. playmusic.py: reads the wav file and sets amplitude in data file, in real time. uses pyaudio.
+1. playmusic.py: reads the wav file and sets amplitude in data file, in real time. uses pyaudio (pyaudio can be installed using sudo apt-get install python-pyaudio python3-pyaudio) 
 
 2. playlight.py: Sets lifx light bulb brightness according to amplitude in data file, in real time. uses lifxlan, from https://github.com/mclarkk/lifxlan
 
